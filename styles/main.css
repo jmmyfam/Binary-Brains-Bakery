@@ -1,0 +1,20 @@
+body {
+    background-image: url('https://st4.depositphotos.com/1653609/26983/v/380/depositphotos_269832728-stock-illustration-cute-colorful-cupcakes-line-art.jpg?forcejpeg=true');
+
+}
+
+#NavBar {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    border: 3px solid black;
+    justify-content: space-around;
+    margin: 0px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.item {
+    margin: 10px;
+}
