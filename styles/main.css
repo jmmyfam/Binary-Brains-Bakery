@@ -1,3 +1,19 @@
+h1 {
+    font-family: 'Indie Flower', cursive;
+    font-size:5em;
+    text-align: center;
+    color: rgba(207, 7, 7, 0.986)
+
+}
+
+h3 {
+    font-family: 'Indie Flower', cursive;
+    text-align: center;
+    font-size: 2em;
+    position: relative;
+    top: -60px;
+}
+
 body {
     background-image: url('https://st4.depositphotos.com/1653609/26983/v/380/depositphotos_269832728-stock-illustration-cute-colorful-cupcakes-line-art.jpg?forcejpeg=true');
 
@@ -9,13 +25,15 @@ body {
     list-style: none;
     display: flex;
     flex-wrap: wrap;
-    border: 3px solid black;
+    border: 1px solid black;
     justify-content: space-around;
     margin: 0px;
     padding: 20px;
     position: fixed;
     top: 0;
     width: 100%;
+    font-family: 'Pacifico', sans-serif;
+   
 }
 h2 {font-family: sans-serif;
 text-align: center;
@@ -28,7 +46,8 @@ padding: 20px;}
 
 
 
-.item {
+.Item {
     margin: 10px;
+
+    
 }
-h1 {padding: 60px;}
