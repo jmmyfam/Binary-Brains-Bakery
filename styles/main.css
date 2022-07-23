@@ -1,9 +1,51 @@
+#homeButton {
+    font-family: 'Pacifico', cursive;
+    display: inline-block;
+    border-radius: 15px;
+    background-color: rgba(253, 249, 228, 0.986);
+    border: 1px solid black;
+    color: #1b1b1b;
+    text-align: center;
+    font-size: 25px;
+    padding: 15px;
+    width: 180px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+    box-shadow: 0 0 10px black;
+  }
+  
+  #homeButton span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  #homeButton span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  #homeButton:hover span {
+    padding-right: 25px;
+  }
+  
+  #homeButton:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
 h1 {
     font-family: 'Indie Flower', cursive;
     font-size:5em;
     text-align: center;
-    color: rgba(207, 7, 7, 0.986)
-
+    color: rgba(47, 77, 158, 0.986);
+    margin: 135px auto 70px;
 }
 
 h3 {
@@ -12,13 +54,15 @@ h3 {
     font-size: 2em;
     position: relative;
     top: -60px;
+    color:rgba(241, 110, 110, 0.986);
+    text-shadow: 0 0 1px rgb(0, 0, 0);
+    border-left: 1px solid black;
 }
 
 body {
     background-image: url('https://st4.depositphotos.com/1653609/26983/v/380/depositphotos_269832728-stock-illustration-cute-colorful-cupcakes-line-art.jpg?forcejpeg=true');
-
 }
-.cake-images {border: double 1em rgb(237, 100, 189) ;}
+
 #NavBar {font-size: large;
     font-weight: 300;
     font: bold;
@@ -33,21 +77,10 @@ body {
     top: 0;
     width: 100%;
     font-family: 'Pacifico', sans-serif;
-   
+    background-color:rgba(253, 249, 228, 0.986);
 }
-h2 {font-family: sans-serif;
-text-align: center;
-color: black;
-border: solid black;
-background-color: grey;
-padding: 20px;}
-* {box-sizing:border-box}
-
-
-
 
 .Item {
     margin: 10px;
-
-    
+    font-size: 30px;
 }
