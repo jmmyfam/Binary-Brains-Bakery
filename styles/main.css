@@ -18,25 +18,36 @@ body {
     background-image: url('https://st4.depositphotos.com/1653609/26983/v/380/depositphotos_269832728-stock-illustration-cute-colorful-cupcakes-line-art.jpg?forcejpeg=true');
 
 }
-
-#NavBar {
+.cake-images {border: double 1em rgb(237, 100, 189) ;}
+#NavBar {font-size: large;
+    font-weight: 300;
+    font: bold;
     list-style: none;
     display: flex;
     flex-wrap: wrap;
     border: 1px solid black;
     justify-content: space-around;
     margin: 0px;
+    padding: 20px;
     position: fixed;
     top: 0;
     width: 100%;
     font-family: 'Pacifico', sans-serif;
    
 }
+h2 {font-family: sans-serif;
+text-align: center;
+color: black;
+border: solid black;
+background-color: grey;
+padding: 20px;}
+* {box-sizing:border-box}
+
+
+
 
 .Item {
     margin: 10px;
 
     
 }
-
-
