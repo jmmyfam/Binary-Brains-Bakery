@@ -1,0 +1,141 @@
+body {
+  background-image: url('https://st4.depositphotos.com/1653609/26983/v/380/depositphotos_269832728-stock-illustration-cute-colorful-cupcakes-line-art.jpg?forcejpeg=true');
+  font-family: 'Indie Flower', cursive;
+  text-align: center;
+}
+
+#NavBar {font-size: large;
+  font-weight: 300;
+  font: bold;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  border: 1px solid black;
+  justify-content: space-around;
+  margin: 0 0 0 -10px;
+  padding: 20px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  font-family: 'Pacifico', sans-serif;
+  background-color:rgba(253, 249, 228, 0.986);
+}
+
+.Item {
+  margin: 10px;
+  font-size: 30px;
+}
+
+#homeButton {
+  font-family: 'Pacifico', cursive;
+  display: inline-block;
+  border-radius: 15px;
+  background-color: rgba(253, 249, 228, 0.986);
+  border: 1px solid black;
+  color: #1b1b1b;
+  text-align: center;
+  font-size: 25px;
+  padding: 15px;
+  width: 180px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+  box-shadow: 0 0 10px black;
+}
+  
+#homeButton span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+#homeButton span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+#homeButton:hover span {
+  padding-right: 25px;
+}
+
+#homeButton:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+h1 {
+  display: inline-block;
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+  font-size:4em;
+  color: rgba(47, 77, 158, 0.986);
+  background-color: white;
+  margin: 200px auto 50px;
+  padding: 5px 40px;
+  border-radius: 20px;
+  box-shadow: 0 0 5px black;
+}
+
+#contactForm {
+  width: 35%;
+  margin: 0 auto;
+  font-size: 2em;
+}
+
+#info {
+  border-radius: 10px;
+  background-image: linear-gradient(#c6ddff, #ffffff, #d0ffe3);
+  padding: 15px 0;
+  box-shadow: 0 0 5px black;
+}
+
+fieldset {
+  text-align: center;
+  border: none;
+}
+
+fieldset > * {
+  margin: 0 auto;
+}
+
+.message {
+  width: 400px;
+  height: 170px;
+}
+
+.text {
+  font-family: 'Indie Flower', cursive;
+  font-size: 20px;
+}
+
+#submitButton {
+  display: block;
+  width: 150px;
+  height: 40px;
+  margin: 20px auto;
+  font-family: 'Indie Flower', cursive;
+  font-size: 25px;
+  color: #3b3b3b;
+  background-color: #ff9090;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0px 0px 4px black;
+}
+
+#submitButton:hover {
+  border: 1px solid #6d6d6d;
+  color: #202020;
+  box-shadow: 0px 0px 2px rgb(29, 29, 29);
+}
+
+#submitButton:active {
+  box-shadow: inset 2px 2px 4px black;
+  padding: 2px 0 0 3px;
+  border-top: 1px solid gray;
+  border-left: 1px solid gray;
+}
