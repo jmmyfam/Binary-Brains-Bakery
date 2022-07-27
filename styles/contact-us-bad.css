@@ -87,16 +87,17 @@ a:hover {
 }
 
 h1 {
-  text-align: center;
-  font-family: 'Indie Flower', cursive;
+  text-align: left;
+  font-family: sans serif;
   font-size: 4em;
-  color: rgba(47, 77, 158, 0.986);
+  color: black;
   background-color: white;
   padding: 80px 0;
 }
 
 #main {
   display: flex;
+  flex-direction: column;
   justify-content: space-around;
   margin: -50px 0 0 0;
 }
@@ -104,25 +105,23 @@ h1 {
 #contactForm {
   width: 50%;
   font-size: 2em;
+  margin: 0 0 0 250px;
 }
 
 #contactInfo {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   width: 50%;
   height: 500px;
   font-size: 2em;
   background-image: linear-gradient(#fdd0cf, #ffffff, #fff9d7);
   color: rgba(35, 57, 117, 0.986);
-  border-top: 1px solid black;
-  border-bottom: 1px solid black;
-  transition: all 0.25s;
+  border: 20px dotted green;
 }
 
 #contactInfo:hover {
-  font-size: 2.1em;
+  font-size: 5em;
 }
 
 #info {
@@ -131,15 +130,14 @@ h1 {
   justify-content: center;
   align-items: center;
   color: rgba(35, 57, 117, 0.986);
-  background-image: linear-gradient(#c6ddff, #ffffff, #d0ffe3);
+  background-image: linear-gradient(white, #d0ffe3);
   height: 500px;
-  border-top: 1px solid black;
-  border-bottom: 1px solid black;
+  border-radius: 30%;
   transition: all 0.25s;
 }
 
 #info:hover {
-  font-size: 35px;
+  font-size: 100px;
 }
 
 fieldset {
@@ -164,21 +162,20 @@ fieldset > * {
 
 #submitButton {
   display: block;
-  width: 150px;
+  width: 300px;
   height: 40px;
   margin: 20px auto;
   font-family: 'Indie Flower', cursive;
   font-size: 25px;
   color: #3b3b3b;
-  background-color: #ff9090;
+  background-color: #057e29;
   border: none;
   border-radius: 5px;
   box-shadow: 0px 0px 4px black;
-  transition: font-size 0.25s;
 }
 
 #submitButton:hover {
-  font-size: 27px;
+  font-size: 0;
   border: 1px solid #6d6d6d;
   color: #202020;
   box-shadow: 0px 0px 2px rgb(29, 29, 29);
@@ -198,17 +195,3 @@ fieldset > * {
   color: #202020;
   box-shadow: 0px 0px 2px rgb(29, 29, 29);
 } */
-
-#contactUsBad {
-  float: right;
-  margin-right: 100px;
-  font-size: 20px;
-  color: rgb(143, 26, 143);
-  background-color: white;
-  border-top: 1px solid black;
-  border-left: 1px solid black;
-  border-right: 1px solid black;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
-  padding: 3px 15px;
-}
