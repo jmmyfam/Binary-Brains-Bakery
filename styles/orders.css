@@ -48,13 +48,25 @@ right: 0;
 }
 
 h1 {
-  margin: 150px auto 30px;
+  margin: 150px auto 0px;
   color: rgba(0, 0, 0, 0.637);
   font-style: oblique;
   font-size: 5em;
 }
   
-  
+#orderhere {
+  font-size: 2em;
+  display:flex;
+  flex-direction:row;
+  align-items:center;
+  background-color: #ffffffb9;
+ 
+}
+
+.text {
+  font-family: 'Indie Flower', cursive;
+  font-size: 20px;
+}
   
   
  
@@ -69,7 +81,7 @@ h1 {
 .cakes {
 display: flex;
 flex-direction: column;
-
+top: -100px;
 }
 
 
@@ -137,9 +149,65 @@ a:hover {
 background-image: linear-gradient(to right top, #ffffff, #cc4040, #d1b847, #44be55, #5443b4, #af3ca9, #ffffff);
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
-
 }
-  
+
+textarea {
+  width: 350px;
+  height: 150px;
+}
+
+.submit {
+  border-radius: 30px;
+  font-size: 16px;
+  font-weight: 200;
+  letter-spacing: 1px;
+  padding: 13px 20px 13px;
+  outline: 0;
+  border: 1px solid black;
+  cursor: pointer;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  font-family: 'Indie FLower', cursive;
+}
+
+.submit:after {
+  border-radius: 30px;
+  content: "";
+  background-image: linear-gradient(to right top, #ffb1b1, #fff4c4, #bcffc5, #cec5ff, #ffd0fd);
+  width: 100%;
+  z-index: -1;
+  position: absolute;
+  height: 100%;
+  top: 7px;
+  left: 7px;
+  transition: 0.2s;
+}
+
+.submit:hover:after {
+  top: 0px;
+  left: 0px;
+}
+
+@media (min-width: 768px) {
+  .button-52 {
+    padding: 13px 50px 13px;
+  }
+}
+
+#label1 {
+  color:#40b850;
+}
+
+#label2 {
+  color:rgb(211, 74, 74);
+}
+
+#label3 {
+  color:#5b4f9e;
+}
  
 
 
