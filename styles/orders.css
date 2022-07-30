@@ -160,7 +160,7 @@ textarea {
 }
 
 .submit {
-  border-radius: 30px;
+  border-radius: 15px;
   font-size: 16px;
   font-weight: 200;
   letter-spacing: 1px;
@@ -177,7 +177,7 @@ textarea {
 }
 
 .submit:after {
-  border-radius: 30px;
+  border-radius: 15px;
   content: "";
   background-image: linear-gradient(to right top, #ffb1b1, #fff4c4, #bcffc5, #cec5ff, #ffd0fd);
   width: 100%;
