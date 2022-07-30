@@ -32,7 +32,7 @@
 }
 
 #homeButton:hover span {
-  padding-right: 0px;
+  padding-right: 25px;
 }
 
 #homeButton:hover span:after {
