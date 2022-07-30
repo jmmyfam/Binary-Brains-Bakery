@@ -31,49 +31,85 @@
 <div id="pricelist">
 
 <div class="cakes">
-    <p>CAKE TYPE</p> 
-       <ul id="list-item">
-        
-        <li>Cupcakes - $50</li>
-        <li>Wedding Cakes - $300</li>
-        <li>Birthday Cakes - $100</li>
-        <li>Custom Cakes - $100-$300</li>
+<p>CAKE TYPE</p> 
+<ul id="list-item">
 
-       </ul> 
-    
+<li>Cupcakes - $50</li>
+<li>Wedding Cakes - $300</li>
+<li>Birthday Cakes - $100</li>
+<li>Custom Cakes - $100-$300</li>
+
+</ul> 
+
 </div>
 
 
 <div class="flavors">
-    <p>FLAVORS</p>
-    <ul id="list-item">
-        
-        <li>Chocolate - +$10</li>
-        <li>Tres Leches - +$15</li>
-        <li>Red Velvet - +$20</li>
-        <li>Ice Cream Cake - +$15</li>
-        <li>Cheesecake - +$5</li>
-        <li>Carrot & Butterpound - +$10</li>
+<p>FLAVORS</p>
+<ul id="list-item">
 
-    </ul>
+<li>Chocolate - +$10</li>
+<li>Tres Leches - +$15</li>
+<li>Red Velvet - +$20</li>
+<li>Ice Cream Cake - +$15</li>
+<li>Cheesecake - +$5</li>
+<li>Carrot & Butterpound - +$10</li>
+
+</ul>
 </div>
 
 <div class="tiers">
-    <p>TIERS</p>
-    <ul id="list-item">
+<p>TIERS</p>
+<ul id="list-item">
 
-        <li>1-Tier - Standard Price</li>
-        <li>2-Tier - +$20</li>
-        <li>3-Tier - +$30</li>
-        <li>4-Tier - +$50</li>
-        <li>5-Tier - +$100</li>
+<li>1-Tier - Standard Price</li>
+<li>2-Tier - +$20</li>
+<li>3-Tier - +$30</li>
+<li>4-Tier - +$50</li>
+<li>5-Tier - +$100</li>
 
-    </ul>
+</ul>
 </div>
 </div>
 
 <form id="order_form">
-    
+<div id="orderhere">
+    <fieldset>
+    <label id="label1" for="caketype">Pick your cake type!</label>
+    <select id="caketype">
+        <option value="cupcake">Cupcakes</option>
+        <option value="weddingcake">Wedding Cake</option>
+        <option value="birthdaycake">Birthday Cake</option>
+        <option value="customcake">I want my cake custom</option>
+    </select>
+</fieldset>
+<fieldset>
+    <label id="label2" for="flavors">Choose your flavor!</label>
+    <select id="cakeflavors">
+        <option value="chocolate">Chocolate!</option>
+        <option value="tresleches">Tres Leches!</option>
+        <option value="redvelvet">Red Velvet!</option>
+        <option value="icecreamcake">Ice Cream Cake!</option>
+        <option value="cheesecake">Cheesecake!</option>
+        <option value="carrotcake">Carrot Cake!</option>
+        <option value="butterpoundcake">Butterpound Cake!</option>
+    </select>
+</fieldset>
+<fieldset>
+    <label id="label3" for="tiers">How many tiers would you like?</label>
+    <select id="tiers">
+        <option value="one">Only 1</option>
+        <option value="two">I would like 2</option>
+        <option value="three">I need 3!</option>
+        <option value="four">Give me 4!</option>
+        <option value="five">I think I need 5..</option>
+    </select>
+</fieldset>
+<textarea name="message" class="message text" placeholder="Please describe exactly how you want your cake. Don't be afraid of being too extra, we take on any challenge!"></textarea>
+</div>
+
+<button class="submit" style="vertical-align:middle">Click here for your quote</button>
+
 </form>
 
 </body>
