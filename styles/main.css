@@ -42,12 +42,11 @@
 
 h1 {
   display: inline-block;
-  font-family: 'Indie Flower', cursive;
-  font-size: 5em;
+  font-family: 'Quicksand', sans-serif;
   text-align: center;
-  font-size: 150px;
+  font-size: 140px;
   color: rgba(47, 77, 158, 0.986);
-  margin: 135px auto 0;
+  margin: 200px auto 0;
   padding: 5px;
   background-image: linear-gradient(to right top, #ffffff, #cc4040, #d1b847, #44be55, #5443b4, #af3ca9, #ffffff);
   -webkit-background-clip: text;
@@ -55,27 +54,32 @@ h1 {
 }
 
 h3 {
-  display: inline-block;
+  display: block;
+  width: 35%;
   font-family: 'Indie Flower', cursive;
   text-align: center;
   font-size: 3em;
   color: #252525;
   box-shadow: 0 0 8px black;
   padding: 5px 25px;
-  margin: 50px auto 100px;
+  margin: 75px auto 250px;
   border-radius: 10px;
-  background-image: linear-gradient(to right top, #ffb1b1, #fff4c4, #bcffc5, #cec5ff, #ffd0fd);
+  background-image: linear-gradient(to left top, #ffb1b1, #fff4c4, #bcffc5, #cec5ff, #ffd0fd);
 }
 
 h3:hover {
-  background-image: linear-gradient(to right top, #cec5ff, #ffd0fd, #bcffc5, #ffb1b1, #fff4c4);
+  background-image: linear-gradient(to left top, #cec5ff, #ffd0fd, #bcffc5, #ffb1b1, #fff4c4);
 }
 
 body {
-  background-image: url('https://st4.depositphotos.com/1653609/26983/v/380/depositphotos_269832728-stock-illustration-cute-colorful-cupcakes-line-art.jpg?forcejpeg=true');
+  background-image: url('https://previews.123rf.com/images/djvstock/djvstock1805/djvstock180511759/102070433-background-of-birthday-cake-pattern-vector-illustration.jpg');
+  /* background-color: rgb(226, 251, 255); */
+  /* background-repeat: no-repeat;
+  background-size: 100vw; */
   text-align: center;
   font-family: 'Indie Flower', cursive;
 }
+
 
 #NavBar {
   font-size: large;
@@ -119,7 +123,7 @@ a:hover {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 0 auto 1000px;
+  margin: 0 auto 60px;
 }
 
 .image-cards {
@@ -132,8 +136,9 @@ img {
   height: 550px;
   object-fit: cover;
   padding: 5px;
-  background-color: #222222;
+  background-color:rgba(255, 252, 225, 0.986);
   border-radius: 15px;
+  box-shadow: 0 0 10px black;
 }
 
 p {
