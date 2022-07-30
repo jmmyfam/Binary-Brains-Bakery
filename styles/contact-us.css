@@ -2,9 +2,12 @@ body {
   background-image: url('https://st4.depositphotos.com/1653609/26983/v/380/depositphotos_269832728-stock-illustration-cute-colorful-cupcakes-line-art.jpg?forcejpeg=true');
   font-family: 'Indie Flower', cursive;
   text-align: center;
+  margin: 0;
+  padding-top: 25px;
 }
 
-#NavBar {font-size: large;
+#NavBar {
+  font-size: large;
   font-weight: 300;
   font: bold;
   list-style: none;
@@ -12,13 +15,14 @@ body {
   flex-wrap: wrap;
   border: 1px solid black;
   justify-content: space-around;
-  margin: 0 0 0 -10px;
+  margin: 0;
   padding: 20px;
   position: fixed;
   top: 0;
   width: 100%;
-  font-family: 'Pacifico', sans-serif;
-  background-color:rgba(253, 249, 228, 0.986);
+  height: 35px;
+  font-family: 'Indie Flower', cursive;
+  background-image: linear-gradient(to right top, #e4e4e4, #feebff);
 }
 
 .Item {
@@ -26,11 +30,25 @@ body {
   font-size: 30px;
 }
 
+a {
+  text-decoration: none;
+  color: #1b1b1b;
+  font-size: 40px;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+a:hover {
+  background-image: linear-gradient(to right top, #ffffff, #cc4040, #d1b847, #44be55, #5443b4, #af3ca9, #ffffff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 #homeButton {
-  font-family: 'Pacifico', cursive;
+  font-family: 'Indie Flower', cursive;
   display: inline-block;
   border-radius: 15px;
-  background-color: rgba(253, 249, 228, 0.986);
+  background-image: linear-gradient(to right top, #ffb1b1, #fff4c4, #bcffc5, #cec5ff, #ffd0fd);
   border: 1px solid black;
   color: #1b1b1b;
   text-align: center;
@@ -69,29 +87,59 @@ body {
 }
 
 h1 {
-  display: inline-block;
   text-align: center;
   font-family: 'Indie Flower', cursive;
-  font-size:4em;
+  font-size: 4em;
   color: rgba(47, 77, 158, 0.986);
   background-color: white;
-  margin: 200px auto 50px;
-  padding: 5px 40px;
-  border-radius: 20px;
-  box-shadow: 0 0 5px black;
+  padding: 80px 0;
+}
+
+#main {
+  display: flex;
+  justify-content: space-around;
+  margin: -50px 0 0 0;
 }
 
 #contactForm {
-  width: 35%;
-  margin: 0 auto;
+  width: 50%;
   font-size: 2em;
 }
 
+#contactInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 500px;
+  font-size: 2em;
+  background-image: linear-gradient(#fdd0cf, #ffffff, #fff9d7);
+  color: rgba(35, 57, 117, 0.986);
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  transition: all 0.25s;
+}
+
+#contactInfo:hover {
+  font-size: 2.1em;
+}
+
 #info {
-  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: rgba(35, 57, 117, 0.986);
   background-image: linear-gradient(#c6ddff, #ffffff, #d0ffe3);
-  padding: 15px 0;
-  box-shadow: 0 0 5px black;
+  height: 500px;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  transition: all 0.25s;
+}
+
+#info:hover {
+  font-size: 35px;
 }
 
 fieldset {
@@ -111,6 +159,7 @@ fieldset > * {
 .text {
   font-family: 'Indie Flower', cursive;
   font-size: 20px;
+  color: rgba(35, 57, 117, 0.986);
 }
 
 #submitButton {
@@ -125,9 +174,11 @@ fieldset > * {
   border: none;
   border-radius: 5px;
   box-shadow: 0px 0px 4px black;
+  transition: font-size 0.25s;
 }
 
 #submitButton:hover {
+  font-size: 27px;
   border: 1px solid #6d6d6d;
   color: #202020;
   box-shadow: 0px 0px 2px rgb(29, 29, 29);
@@ -138,4 +189,26 @@ fieldset > * {
   padding: 2px 0 0 3px;
   border-top: 1px solid gray;
   border-left: 1px solid gray;
+}
+
+/* FOR WHEN LINK WORKS. CODE BELOW NOT CURRENTLY PROBABLY B/C LINK DOESN'T DO ANYTHING */
+/* #submitButton:visited {
+  font-size: 27px;
+  border: 1px solid #6d6d6d;
+  color: #202020;
+  box-shadow: 0px 0px 2px rgb(29, 29, 29);
+} */
+
+#contactUsBad {
+  float: right;
+  margin-right: 100px;
+  font-size: 20px;
+  color: rgb(143, 26, 143);
+  background-color: white;
+  border-top: 1px solid black;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  padding: 3px 15px;
 }
