@@ -114,6 +114,11 @@ p {
 }
 
 
+#cactus {
+  position: fixed;
+}
+  
+
 #NavBar {
 font-size: large;
 font-weight: 300;
@@ -212,12 +217,17 @@ textarea {
   color:#5b4f9e;
 }
  
+#sun {
+  display: flex;
+  justify-content: flex-start;
+  position: relative;
+  transform: scale(150%)
+}
 
-
-  
-
-
-  
+#cactus {
+  transform: scale(200%);
+  top: 60px;
+}
 
 
 
